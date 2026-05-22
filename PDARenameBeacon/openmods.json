@@ -1,16 +1,16 @@
 {
   "schemaVersion": 2,
-  "slug": "Access-Storage-Modules",
-  "name": "Access Storage Modules",
+  "slug": "PDA-Rename-Beacon",
+  "name": "PDA Rename Beacon",
   "supportedGameId": "subnautica",
 
-  "releaseAssets": [ "AccessStorageModules*.zip" ],
-  "primaryAsset": "AccessStorageModules*.zip",
+  "releaseAssets": [ "PDARenameBeacon*.zip" ],
+  "primaryAsset": "PDARenameBeacon*.zip",
 
   "links": [
     {
       "label": "Nexus",
-      "url": "https://www.nexusmods.com/subnautica/mods/3541"
+      "url": "https://www.nexusmods.com/subnautica/mods/3520"
     }
   ],
 
