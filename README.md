@@ -20,7 +20,7 @@
 
 1. Download the desired mod(s) from [Releases](https://github.com/slin-o/my-subnautica-mods/releases).
 2. Ensure [BepInEx](https://www.nexusmods.com/subnautica/mods/1108) and [Nautilus](https://www.nexusmods.com/subnautica/mods/1262) are installed for Subnautica 2.0+.
-3. Copy the extracted mod folder(s) into your Subnautica **BepInEx/plugins** directory:
+3. Copy the extracted mod folder(s) into your Subnautica **BepInEx/plugins** directory.
 
 ## Contributing
 
