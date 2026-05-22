@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "2.0",
+  "slug": "Access-Storage-Modules",
+  "name": "Access Storage Modules",
+  "supportedGameId": "subnautica",
+
+  "install": {
+    "path": "BepInEx/plugins"
+  },
+
+  "releaseAssets": [ "AccessStorageModules-*.zip" ],
+  "primaryAsset": "AccessStorageModules-*.zip",
+
+  "links": [
+    {
+      "label": "Nexus",
+      "url": "https://www.nexusmods.com/subnautica/mods/3541"
+    }
+  ],
+
+  "dependencies": {
+    "2.0.0": [
+      { "modId": 30 }, // Nautilus
+      { "modId": 31 } // Bepinx for Subnautica
+    ]
+  }
+}
