@@ -15,7 +15,7 @@
   ],
 
   "dependencies": {
-    "2.0.0": [
+    "1.0.0": [
       { "modId": 30 }, // Nautilus
       { "modId": 31 } // Bepinx for Subnautica
     ]
