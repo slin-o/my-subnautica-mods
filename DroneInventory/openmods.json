@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "slug": "Drone-Inventory",
+  "name": "Drone Inventory",
+  "supportedGameId": "subnautica",
+
+  "releaseAssets": [ "DroneInventory*.zip" ],
+  "primaryAsset": "DroneInventory*.zip",
+
+  "dependencies": {
+    "1.0.0": [
+      { "modId": 30 }, // Nautilus
+      { "modId": 31 } // Bepinx for Subnautica
+    ]
+  },
+
+  "install": {
+    "path": "BepInEx/plugins"
+  }
+}

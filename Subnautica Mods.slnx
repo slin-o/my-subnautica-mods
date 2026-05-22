@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="AccessStorageModules/AccessStorageModules.csproj" Id="9467d0db-6e57-430a-9756-48e35e971967" />
-  <Project Path="Drone Inventory/Drone Inventory.csproj" />
+  <Project Path="DroneInventory/DroneInventory.csproj" />
+  <Project Path="PDARenameBeacon/PDARenameBeacon.csproj" Id="f7d874fe-edf5-4a96-914a-4a03d3d0fd45" />
 </Solution>
