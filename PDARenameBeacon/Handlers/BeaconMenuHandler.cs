@@ -20,7 +20,7 @@ internal class BeaconMenuHandler
                 PingType.Exosuit => pingInstance.GetComponentInParent<Vehicle>().subName,
                 _ => null
             };
-            if (subName == null || !tabInstance.entries.TryGetValue(pingInstance.Id, out var pingEntry))
+            if (subName == null || !pingInstance.initialized || !tabInstance.entries.TryGetValue(pingInstance.Id, out var pingEntry))
                 continue;
             SubMapping.Add(pingEntry, subName);
         }
@@ -30,7 +30,7 @@ internal class BeaconMenuHandler
         foreach (var beacon in beacons)
         {
             var pingInstance = beacon.beaconLabel.pingInstance;
-            if (!tabInstance.entries.TryGetValue(pingInstance.Id, out var pingEntry))
+            if (!pingInstance.initialized || !tabInstance.entries.TryGetValue(pingInstance.Id, out var pingEntry))
                 continue;
             BeaconMapping.Add(pingEntry, beacon);
         }
