@@ -12,6 +12,7 @@
 
 - ### **DroneInventory** (*Early Access*)
   Adds drone-based inventory management, allowing you to transfer items remotely and automate resource transport with deployable drones.
+  EARLY ACCESS, Please Report any bugs
 
 - ### **PDARenameBeacon**  
   Lets you rename beacons directly from your PDA, for smarter navigation and organization in the game world.
