@@ -1,6 +1,7 @@
 {
+  "$schema": "https://openmods.net/manifest.schema.json",
   "schemaVersion": 2,
-  "slug": "Drone-Inventory",
+  "slug": "drone-inventory",
   "name": "Drone Inventory",
   "supportedGameId": "subnautica",
 
